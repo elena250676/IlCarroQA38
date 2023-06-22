@@ -12,7 +12,7 @@ public class RegistrationTests extends TestBase {
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
         app.getUser().openRegistration();
         app.getUser().fillRegistrationForm("Elena" , "Pavlova","pavlovae435" + i + "@gmail.com", "Alex@2001");
-        //app.getUser().fillCheckbox();
+        app.getUser().fillCheckbox();
         app.getUser().submitRegistration();
         app.getUser().pause(5000);
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button")));

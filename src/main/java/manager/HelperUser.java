@@ -3,6 +3,7 @@ package manager;
 import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class HelperUser extends HelperBase{
 
@@ -35,8 +36,38 @@ public void fillRegistrationForm(String firstname, String lastname, String email
 }
 
 public void fillCheckbox() {
-   click(By.cssSelector("[@type='checkbox']"));
+
+    WebElement CheckboxSelected = wd.findElement(By.cssSelector("label[for='terms-of-use']"));
+    boolean isSelected = CheckboxSelected.isSelected();
+
+    // performing click operation if element is not selected
+		if(isSelected == false) {
+        CheckboxSelected.click();
     }
+
+    /**
+     * Validate isDisplayed and click
+     */
+    WebElement checkBoxDisplayed = wd.findElement(By.cssSelector("label[for='terms-of-use']"));
+    boolean isDisplayed = checkBoxDisplayed.isDisplayed();
+
+    // performing click operation if element is displayed
+		if (isDisplayed == true) {
+        checkBoxDisplayed.click();
+    }
+
+    /**
+     * Validate isEnabled and click
+     */
+    WebElement checkBoxEnabled = wd.findElement(By.cssSelector("label[for='terms-of-use']"));
+    boolean isEnabled = checkBoxEnabled.isEnabled();
+
+    // performing click operation if element is enabled
+		if (isEnabled == true) {
+        checkBoxEnabled.click();
+    }
+}
+
     public void submitRegistration(){
         click(By.xpath("//button[@type='submit']"));
     }
