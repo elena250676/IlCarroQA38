@@ -28,13 +28,22 @@ public class HelperUser extends HelperBase{
 public void openRegistration(){
     wd.findElement(By.xpath("//span[@class='navigator']")).click();
 }
+    public void openRegistrationForm(){
+        wd.findElement(By.xpath("//*[.=' Sign up ']")).click();
+    }
 public void fillRegistrationForm(String firstname, String lastname, String email, String password) {
     type(By.xpath("//input[@id='name']"), firstname);
     type(By.xpath("//input[@id='lastName']"), lastname);
     type(By.xpath("//input[@id='email']"), email);
     type(By.xpath("//input[@id='password']"), password);
 }
-
+    public void fillRegistrationForm(User user){
+        type(By.xpath("//input[@id='name']"), user.getName());
+        type(By.xpath("//input[@id='lastName']"), user.getLastName());
+        type(By.xpath("//input[@id='email']"), user.getEmail());
+        type(By.xpath("//input[@id='password']"), user.getPassword());
+        click(By.cssSelector("label[for='terms-of-use']"));
+    }
 public void fillCheckbox() {
 
     WebElement CheckboxSelected = wd.findElement(By.cssSelector("label[for='terms-of-use']"));
@@ -83,8 +92,22 @@ public void fillCheckbox() {
     public boolean isLogged(){
         return isElementPresent(By.xpath("//*[.=' Logout ']"));
     }
+
     public void clickOK(){
         click(By.xpath("//*[@class='positive-button ng-star-inserted']"));
+    }
+
+    public boolean isLoggedSuccess(){
+        return isElementPresent(By.xpath("//h2[contains(text(),'success')]"));
+    }
+    public void clickOkButton(){
+        click(By.xpath("//button[@type='button']"));
+    }
+    public void login(User user){
+        openLoginForm();
+        fillLoginForm(user);
+        submitLogin();
+        clickOkButton();
     }
 
 }
