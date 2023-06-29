@@ -2,7 +2,9 @@ package manager;
 
 import models.Car;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Rectangle;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -27,29 +29,39 @@ public class HelperCar extends HelperBase{
         select(By.id("fuel"), car.getFuel());
         type(By.id("seats"), car.getSeats());
         type(By.id("class"), car.getCarClass());
+        ClickRegNumber(car.getCarRegNumber());
         type(By.id("serialNumber"), car.getCarRegNumber());
         type(By.id("price"), car.getPrice());
 
     }
-    public void typeLocation(String address){
-        type(By.id("pickUpPlace"), address);
-        click(By.cssSelector("div.pac-item"));
+
+    public void ClickRegNumber(String carRegNumber) {
+        System.out.println("clicked number");
+        Rectangle rect = wd.findElement(By.id("serialNumber"))
+                .getRect();
+        int x = rect.getX()+(rect.getWidth()/4*3);
+        int y =  rect.getY()+rect.getHeight()/4;
+        System.out.println(x);
+        System.out.println(y);
+        Actions actions = new Actions(wd);
+        actions.moveByOffset(x, y).click().sendKeys(carRegNumber).perform();
     }
 
-    public void submitCarForm() {
-        click(By.xpath("//button[@type='submit']"));
-    }
 
+        public void typeLocation(String address){
+            type(By.id("pickUpPlace"), address);
+            click(By.cssSelector("div.pac-item"));
+        }
 
-    public void select(By locator, String option){
-        new Select(wd.findElement(locator)).selectByValue(option);
-    }
-    public boolean isCarFormPresent(){
-        return new WebDriverWait(wd, 10)
-                .until(ExpectedConditions
-                        .textToBePresentInElement(
-                                wd.findElement(By.cssSelector("h2")),
-                                "details"));
-    }
+        public void select(By locator, String option){
+            new Select(wd.findElement(locator)).selectByValue(option);
+        }
 
+        public boolean isCarFormPresent(){
+            return new WebDriverWait(wd, 10)
+                    .until(ExpectedConditions
+                            .textToBePresentInElement(
+                                    wd.findElement(By.cssSelector("h2")),
+                                    "details"));
+        }
 }

@@ -23,7 +23,8 @@ public class AddNewCar extends TestBase{
                 .fuel("Petrol")
                 .seats("5")
                 .carClass("B")
-                .carRegNumber("100-200-" + i)
+                //.carRegNumber("100-200-" + i)
+                .carRegNumber("10")
                 .price("150")
                 .about("")
                 .build();

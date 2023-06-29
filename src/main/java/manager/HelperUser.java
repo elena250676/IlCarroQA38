@@ -1,9 +1,8 @@
 package manager;
 
 import models.User;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 
 public class HelperUser extends HelperBase{
 
@@ -42,7 +41,24 @@ public void fillRegistrationForm(String firstname, String lastname, String email
         type(By.xpath("//input[@id='lastName']"), user.getLastName());
         type(By.xpath("//input[@id='email']"), user.getEmail());
         type(By.xpath("//input[@id='password']"), user.getPassword());
-        click(By.cssSelector("label[for='terms-of-use']"));
+        //click(By.cssSelector("label[for='terms-of-use']"));
+        clickCheckbox();
+    }
+
+    public void clickCheckbox(){
+        System.out.println("clicked Checkbox");
+        // variant 1
+//            click(By.cssSelector("label[for='terms-of-use']"));
+        // variant 2
+//            JavascriptExecutor js = (JavascriptExecutor) wd;
+//            js.executeScript("document.querySelector('#terms-of-use').click();");
+        // variant 3
+        Rectangle rect = wd.findElement(By.cssSelector("div.checkbox-container")).getRect();
+        int x = rect.getX()+5;
+        int y = rect.getY() + rect.getHeight()/4 ;
+        Actions actions = new Actions(wd);
+        actions.moveByOffset(x, y).click().perform();
+
     }
 public void fillCheckbox() {
 
