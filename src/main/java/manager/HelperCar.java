@@ -10,6 +10,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.ZoneOffset;
+
 public class HelperCar extends HelperBase{
     public HelperCar(WebDriver wd) {
         super(wd);
@@ -30,6 +32,7 @@ public class HelperCar extends HelperBase{
         type(By.id("seats"), car.getSeats());
         type(By.id("class"), car.getCarClass());
         ClickRegNumber(car.getCarRegNumber());
+        //ClickRegNumber(car.getCarRegNumber());
         type(By.id("serialNumber"), car.getCarRegNumber());
         type(By.id("price"), car.getPrice());
 
@@ -44,9 +47,17 @@ public class HelperCar extends HelperBase{
         System.out.println(x);
         System.out.println(y);
         Actions actions = new Actions(wd);
-        actions.moveByOffset(x, y).click().sendKeys(carRegNumber).perform();
+        actions.moveToElement(wd.findElement(By.id("serialNumber"))).sendKeys(carRegNumber).click().perform();
     }
-
+//public void ClickSerialNumber(){
+//    System.out.println("clicked number");
+//    Rectangle rect = wd.findElement(By.id("serialNumber"))
+//            .getRect();
+//    int x = rect.getX()+rect.getWidth()/8*7;
+//    int y =  rect.getY()+rect.getHeight()/2;
+//    Actions actions = new Actions(wd);
+//    actions.moveByOffset(x, y).click().perform();
+//}
 
         public void typeLocation(String address){
             type(By.id("pickUpPlace"), address);

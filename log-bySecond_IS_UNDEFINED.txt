@@ -1,0 +1,2 @@
+13476 [Test worker] INFO  manager.AppManager -%PARSER_ERROR[kvp]- registrationPositive starts with credentialsjohn_1596@mail.com$Asdf1234
+14318 [Test worker] INFO  manager.AppManager -%PARSER_ERROR[kvp]- registrationPositive starts with credentialsjohn_1679@mail.com$Asdf1234

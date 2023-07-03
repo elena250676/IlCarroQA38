@@ -1,0 +1,4 @@
+10:57:14 INFO  manager.AppManager - openRegistrationForm invoked
+10:57:15 INFO  manager.AppManager - fillRegistrationForm invoked
+10:57:15 INFO  manager.AppManager - submitLogin invoked
+10:57:15 INFO  manager.AppManager - registrationPositive starts with credentials: login john_3434@mail.com & password: $Asdf1234

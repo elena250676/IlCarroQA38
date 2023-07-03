@@ -1,0 +1,18 @@
+14:02:43 INFO  TestBase - Method loginPositiveUser is started
+14:02:43 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+14:02:54 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+14:02:54 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //a[@class='navigation-link'][normalize-space()='Log in']
+14:02:54 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //a[@class='navigation-link'][normalize-space()='Log in'] is found
+14:02:54 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+14:02:54 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+14:02:54 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+14:02:54 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+14:02:54 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+14:02:54 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+14:02:57 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button
+14:02:57 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button is found
+14:02:57 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[@class='positive-button ng-star-inserted']
+14:02:57 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[@class='positive-button ng-star-inserted'] is found
+14:02:57 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+14:02:57 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+14:03:00 INFO  TestBase - ==================================
