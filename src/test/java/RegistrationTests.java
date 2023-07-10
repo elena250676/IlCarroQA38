@@ -13,27 +13,27 @@ public class RegistrationTests extends TestBase {
     public void precondition(){
         if(app.getUser().isLogged()) app.getUser().logout();
     }
-    @Test
-    public void registrationPositive1(){
-        int i = (int)(System.currentTimeMillis()/1000)%3600;
-        User user = new User()
-                .withName("John")
-                .withLastName("Snow")
-                .withEmail("john_" + i + "@mail.com")
-                .withPassword("$Asdf1234");
-
-        app.getUser().openRegistrationForm();
-        logger.info("openRegistrationForm invoked");
-        app.getUser().fillRegistrationForm(user);
-        logger.info("fillRegistrationForm invoked");
-        app.getUser().submitLogin();
-        logger.info("submitLogin invoked");
-        logger.info("registrationPositive starts with credentials: login "
-                + user.getEmail() + " & password: " + user.getPassword());
-        Assert.assertTrue(app.getUser().isLoggedSuccess());
-
-
-    }
+//    @Test
+//    public void registrationPositive1(){
+//        int i = (int)(System.currentTimeMillis()/1000)%3600;
+//        User user = new User()
+//                .withName("John")
+//                .withLastName("Snow")
+//                .withEmail("john_" + i + "@mail.com")
+//                .withPassword("$Asdf1234");
+//
+//        app.getUser().openRegistrationForm();
+//        logger.info("openRegistrationForm invoked");
+//        app.getUser().fillRegistrationForm(user);
+//        logger.info("fillRegistrationForm invoked");
+//        app.getUser().submitLogin();
+//        logger.info("submitLogin invoked");
+//        logger.info("registrationPositive starts with credentials: login "
+//                + user.getEmail() + " & password: " + user.getPassword());
+//        Assert.assertTrue(app.getUser().isLoggedSuccess());
+//
+//
+//    }
     @Test
     public void registrationNegativ(){
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;

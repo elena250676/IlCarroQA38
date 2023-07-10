@@ -1,0 +1,76 @@
+10:59:15 INFO  TestBase - Method loginPositive is started
+10:59:15 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+10:59:25 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+10:59:25 INFO  manager.TestNGListener - Test loginPositive invoked
+10:59:25 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //a[@class='navigation-link'][normalize-space()='Log in']
+10:59:25 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //a[@class='navigation-link'][normalize-space()='Log in'] is found
+10:59:25 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+10:59:25 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+10:59:25 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+10:59:25 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+10:59:25 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+10:59:25 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+10:59:28 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button
+10:59:28 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button is found
+10:59:28 INFO  manager.TestNGListener - Test loginPositive successful
+10:59:28 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[@class='positive-button ng-star-inserted']
+10:59:28 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[@class='positive-button ng-star-inserted'] is found
+10:59:28 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+10:59:28 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+10:59:31 INFO  TestBase - ==================================
+10:59:31 INFO  TestBase - Method loginPositiveUser is started
+10:59:31 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+10:59:41 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+10:59:41 INFO  manager.TestNGListener - Test loginPositiveUser invoked
+10:59:41 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //a[@class='navigation-link'][normalize-space()='Log in']
+10:59:52 INFO  manager.WebDriverListener - Something went wrong!
+10:59:52 INFO  manager.WebDriverListener - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='navigation-link'][normalize-space()='Log in']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa935ad1fd81c476eb84151565098518
+*** Element info: {Using=xpath, value=//a[@class='navigation-link'][normalize-space()='Log in']}
+10:59:52 INFO  manager.WebDriverListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='navigation-link'][normalize-space()='Log in']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa935ad1fd81c476eb84151565098518
+*** Element info: {Using=xpath, value=//a[@class='navigation-link'][normalize-space()='Log in']}
+10:59:52 INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-3592.png
+10:59:52 INFO  manager.TestNGListener - Test loginPositiveUser failed: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='navigation-link'][normalize-space()='Log in']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa935ad1fd81c476eb84151565098518
+*** Element info: {Using=xpath, value=//a[@class='navigation-link'][normalize-space()='Log in']}
+10:59:52 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[@class='positive-button ng-star-inserted']
+11:00:02 INFO  manager.WebDriverListener - Something went wrong!
+11:00:02 INFO  manager.WebDriverListener - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='positive-button ng-star-inserted']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa935ad1fd81c476eb84151565098518
+*** Element info: {Using=xpath, value=//*[@class='positive-button ng-star-inserted']}
+11:00:02 INFO  manager.WebDriverListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='positive-button ng-star-inserted']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa935ad1fd81c476eb84151565098518
+*** Element info: {Using=xpath, value=//*[@class='positive-button ng-star-inserted']}
+11:00:02 INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-2.png
+11:00:02 INFO  manager.TestNGListener - Test loginPositiveUserData invoked

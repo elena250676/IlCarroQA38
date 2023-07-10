@@ -1,0 +1,20 @@
+11:02:00 INFO  TestBase - Method loginPositive is started
+11:02:00 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+11:02:10 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+11:02:10 INFO  manager.TestNGListener - Test loginPositive invoked
+11:02:10 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //a[@class='navigation-link'][normalize-space()='Log in']
+11:02:10 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //a[@class='navigation-link'][normalize-space()='Log in'] is found
+11:02:10 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+11:02:10 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+11:02:10 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+11:02:10 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+11:02:10 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+11:02:10 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+11:02:13 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button
+11:02:13 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button is found
+11:02:13 INFO  manager.TestNGListener - Test loginPositive successful
+11:02:13 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[@class='positive-button ng-star-inserted']
+11:02:13 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[@class='positive-button ng-star-inserted'] is found
+11:02:13 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+11:02:14 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+11:02:17 INFO  TestBase - ==================================

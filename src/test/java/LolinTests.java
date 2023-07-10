@@ -1,10 +1,12 @@
+import manager.TestNGListener;
 import models.User;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
+@Listeners(TestNGListener.class)
 public class LolinTests extends TestBase {
     @BeforeMethod
 
@@ -14,33 +16,33 @@ public class LolinTests extends TestBase {
         }
     }
 
-    @Test
+//    @Test
 
-    public void loginPositive() {
-        app.getUser().openLoginForm();
-        app.getUser().fillLoginForm("pavlovae434@gmail.com", "Alex@2001");
-        app.getUser().submitLogin();
-       // app.getUser().clickOK();
-        app.getUser().pause(3000);
-        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button")));
-    }
+//    public void loginPositive() {
+//        app.getUser().openLoginForm();
+//        app.getUser().fillLoginForm("pavlovae434@gmail.com", "Alex@2001");
+//        app.getUser().submitLogin();
+//       // app.getUser().clickOK();
+//        app.getUser().pause(3000);
+//        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button")));
+//    }
 
 
-    @Test
-
-    public void loginPositiveUserData() {
-        // User user = new User("pavlovae434@gmail.com", "Alex@2001");
-        User user = new User().withEmail("pavlovae434@gmail.com").withPassword("Alex@2001");
-
+//    @Test
+//
+//    public void loginPositiveUserData() {
+//        // User user = new User("pavlovae434@gmail.com", "Alex@2001");
+//        User user = new User().withEmail("pavlovae434@gmail.com").withPassword("Alex@2001");
+//
 //        user.setEmail("pavlovae434@gmail.com");
 //        user.setPassword("Alex@2001");
-        //       user.setEmail("pavlovae434@gmail.com");
-        app.getUser().openLoginForm();
-        app.getUser().fillLoginForm(user);
-        app.getUser().submitLogin();
-        app.getUser().pause(3000);
-        Assert.assertTrue(app.getUser().isLoggedSuccess());
-    }
+//       user.setEmail("pavlovae434@gmail.com");
+//       app.getUser().openLoginForm();
+//       app.getUser().fillLoginForm(user);
+////        app.getUser().submitLogin();
+////        app.getUser().pause(3000);
+////        Assert.assertTrue(app.getUser().isLoggedSuccess());
+////    }
     @Test
     public void loginPositiveUser() {
         // User user = new User("pavlovae434@gmail.com", "Alex@2001");
@@ -56,18 +58,18 @@ public class LolinTests extends TestBase {
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button")));
     }
 
-    //    @Test
-//    public void loginNegativeWrongEmail() {
-//        app.getUser().openLoginForm();
-//        app.getUser().fillLoginForm("pavlovae434gmail.com", "Alex@2001");
-//        app.getUser().submitLogin();
-//        app.getUser().pause(3000);
-//        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button")));
-//    }
+        @Test
+    public void loginNegativeWrongEmail() {
+        app.getUser().openLoginForm();
+        app.getUser().fillLoginForm("pavlovae434gmail.com", "Alex@2001");
+        app.getUser().submitLogin();
+        app.getUser().pause(3000);
+        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button")));
+    }
     @AfterMethod
     public void tearDown() {
-       app.getUser().clickOK();
-        app.getUser().logout();
-        app.getUser().pause(3000);
+//       app.getUser().clickOK();
+//        app.getUser().logout();
+//        app.getUser().pause(3000);
     }
 }

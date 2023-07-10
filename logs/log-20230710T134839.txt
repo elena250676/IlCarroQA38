@@ -1,0 +1,52 @@
+13:48:41 INFO  manager.AppManager - Tests starting on Chrome
+13:48:43 INFO  manager.AppManager - Tests starting on Firefox
+13:48:44 INFO  TestBase - Method registrationNegativ is started
+13:48:44 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+13:48:55 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+13:48:55 INFO  manager.TestNGListener - Test registrationNegativ invoked
+13:48:55 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Sign up ']
+13:48:55 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Sign up '] is found
+13:48:55 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='name']
+13:48:55 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='name'] is found
+13:48:55 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='lastName']
+13:48:55 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='lastName'] is found
+13:48:55 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+13:48:55 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+13:48:55 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+13:48:55 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+13:48:55 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: div.checkbox-container
+13:48:55 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: div.checkbox-container is found
+13:48:55 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+13:48:55 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+13:49:01 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //h2[contains(text(),'success')]
+13:49:11 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //h2[contains(text(),'success')] is found
+13:49:11 INFO  manager.TestNGListener - Test registrationNegativ successful
+13:49:11 INFO  TestBase - ==================================
+13:49:11 INFO  TestBase - Method registrationPositive is started
+13:49:11 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+13:49:21 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+13:49:21 INFO  manager.TestNGListener - Test registrationPositive invoked
+13:49:21 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //a[@class='navigation-link'][normalize-space()='Log in']
+13:49:21 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //a[@class='navigation-link'][normalize-space()='Log in'] is found
+13:49:21 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //span[@class='navigator']
+13:49:21 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //span[@class='navigator'] is found
+13:49:22 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='name']
+13:49:22 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='name'] is found
+13:49:22 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='lastName']
+13:49:22 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='lastName'] is found
+13:49:22 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+13:49:22 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+13:49:22 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+13:49:22 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+13:49:22 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: label[for='terms-of-use']
+13:49:22 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: label[for='terms-of-use'] is found
+13:49:22 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: label[for='terms-of-use']
+13:49:22 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: label[for='terms-of-use'] is found
+13:49:22 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: label[for='terms-of-use']
+13:49:22 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: label[for='terms-of-use'] is found
+13:49:23 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+13:49:23 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+13:49:28 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button
+13:49:28 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button is found
+13:49:28 INFO  manager.TestNGListener - Test registrationPositive successful
+13:49:28 INFO  TestBase - ==================================

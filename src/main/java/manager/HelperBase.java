@@ -4,6 +4,7 @@ import org.openqa.selenium.*;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class HelperBase {
     WebDriver wd;
@@ -21,7 +22,8 @@ public class HelperBase {
         element.clear();
         element.sendKeys(text);
     }
-
+   // ArrayList<WebElement> list = (ArrayList<WebElement>) wd.findElements(locator);
+    //    list.get(0).clear();
     public void pause(int millis){
         try {
             Thread.sleep(millis);
