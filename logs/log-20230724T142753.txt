@@ -1,0 +1,215 @@
+14:27:54 INFO  manager.AppManager - Tests starting on Chrome
+14:27:56 INFO  TestBase - Method registrationNegativ is started
+14:27:56 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+14:28:06 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+14:28:06 INFO  manager.TestNGListener - Test registrationNegativ invoked
+14:28:06 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Sign up ']
+14:28:06 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Sign up '] is found
+14:28:07 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='name']
+14:28:07 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='name'] is found
+14:28:07 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='lastName']
+14:28:07 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='lastName'] is found
+14:28:07 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+14:28:07 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+14:28:07 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+14:28:07 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+14:28:07 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: label[for='terms-of-use']
+14:28:07 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: label[for='terms-of-use'] is found
+14:28:07 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+14:28:07 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+14:28:07 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //h2[contains(text(),'success')]
+14:28:17 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //h2[contains(text(),'success')] is found
+14:28:17 INFO  manager.TestNGListener - Test registrationNegativ successful
+14:28:17 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //h2[contains(text(),'success')]
+14:28:27 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //h2[contains(text(),'success')] is found
+14:28:28 INFO  TestBase - ==================================
+14:28:28 INFO  TestBase - Method registrationPositive is started
+14:28:28 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+14:28:38 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+14:28:38 INFO  manager.TestNGListener - Test registrationPositive invoked
+14:28:38 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Log in ']
+14:28:38 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Log in '] is found
+14:28:38 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //span[@class='navigator']
+14:28:38 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //span[@class='navigator'] is found
+14:28:38 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='name']
+14:28:38 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='name'] is found
+14:28:38 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='lastName']
+14:28:38 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='lastName'] is found
+14:28:38 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+14:28:38 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+14:28:39 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+14:28:39 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+14:28:39 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: label[for='terms-of-use']
+14:28:39 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: label[for='terms-of-use'] is found
+14:28:39 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: label[for='terms-of-use']
+14:28:39 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: label[for='terms-of-use'] is found
+14:28:39 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: label[for='terms-of-use']
+14:28:39 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: label[for='terms-of-use'] is found
+14:28:39 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+14:28:39 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+14:28:44 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button
+14:28:44 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button is found
+14:28:44 INFO  manager.TestNGListener - Test registrationPositive successful
+14:28:44 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //h2[contains(text(),'success')]
+14:28:44 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //h2[contains(text(),'success')] is found
+14:28:44 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='button']
+14:28:44 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='button'] is found
+14:28:45 INFO  TestBase - ==================================
+14:28:45 INFO  TestBase - Method registrationPositiveDTO is started
+14:28:45 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+14:28:45 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+14:28:45 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+14:28:45 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+14:28:45 INFO  manager.TestNGListener - Test registrationPositiveDTO invoked
+14:28:45 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Sign up ']
+14:28:45 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Sign up '] is found
+14:28:45 INFO  TestBase - openRegistrationForm invoked
+14:28:45 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='name']
+14:28:45 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='name'] is found
+14:28:45 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='lastName']
+14:28:45 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='lastName'] is found
+14:28:45 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+14:28:45 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+14:28:45 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+14:28:45 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+14:28:45 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: label[for='terms-of-use']
+14:28:45 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: label[for='terms-of-use'] is found
+14:28:48 INFO  TestBase - fillRegistrationForm invoked
+14:28:48 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+14:28:48 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+14:28:48 INFO  TestBase - submitLogin invoked
+14:28:48 INFO  TestBase - registrationPositive starts with credentials: login joe_153yyyhn77ggglkas77@n.com & password: $Asjj1234
+14:28:48 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button
+14:28:48 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button is found
+14:28:48 INFO  manager.TestNGListener - Test registrationPositiveDTO successful
+14:28:48 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //h2[contains(text(),'success')]
+14:28:49 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //h2[contains(text(),'success')] is found
+14:28:49 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='button']
+14:28:49 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='button'] is found
+14:28:50 INFO  TestBase - ==================================
+14:28:50 INFO  TestBase - Method registrationPositiveDTO is started
+14:28:50 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+14:28:50 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+14:28:50 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+14:28:50 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+14:28:50 INFO  manager.TestNGListener - Test registrationPositiveDTO invoked
+14:28:50 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Sign up ']
+14:28:50 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Sign up '] is found
+14:28:50 INFO  TestBase - openRegistrationForm invoked
+14:28:50 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='name']
+14:28:50 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='name'] is found
+14:28:50 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='lastName']
+14:28:50 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='lastName'] is found
+14:28:50 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+14:28:50 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+14:28:50 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+14:28:50 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+14:28:50 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: label[for='terms-of-use']
+14:28:50 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: label[for='terms-of-use'] is found
+14:28:53 INFO  TestBase - fillRegistrationForm invoked
+14:28:53 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+14:28:53 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+14:28:53 INFO  TestBase - submitLogin invoked
+14:28:53 INFO  TestBase - registrationPositive starts with credentials: login joe_123454@n.com & password: $Asjj1235
+14:28:53 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button
+14:28:53 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button is found
+14:28:53 INFO  manager.TestNGListener - Test registrationPositiveDTO successful
+14:28:53 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //h2[contains(text(),'success')]
+14:29:03 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //h2[contains(text(),'success')] is found
+14:29:04 INFO  TestBase - ==================================
+14:29:04 INFO  TestBase - Method registrationPositiveDTO is started
+14:29:04 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+14:29:14 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+14:29:14 INFO  manager.TestNGListener - Test registrationPositiveDTO invoked
+14:29:14 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Sign up ']
+14:29:14 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Sign up '] is found
+14:29:15 INFO  manager.WebDriverListener - Something went wrong!
+14:29:15 INFO  manager.WebDriverListener - element click intercepted: Element <a _ngcontent-qht-c44="" class="navigation-link ng-star-inserted" ng-reflect-query-params="[object Object]" ng-reflect-router-link="registration" href="/registration?url=%2Fsearch">...</a> is not clickable at point (760, 35). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e77ac4a2d90a71343df6d5e0a25bf354
+14:29:15 INFO  manager.WebDriverListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-qht-c44="" class="navigation-link ng-star-inserted" ng-reflect-query-params="[object Object]" ng-reflect-router-link="registration" href="/registration?url=%2Fsearch">...</a> is not clickable at point (760, 35). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e77ac4a2d90a71343df6d5e0a25bf354
+14:29:16 INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-1755.png
+14:29:16 INFO  manager.TestNGListener - Test registrationPositiveDTO failed: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-qht-c44="" class="navigation-link ng-star-inserted" ng-reflect-query-params="[object Object]" ng-reflect-router-link="registration" href="/registration?url=%2Fsearch">...</a> is not clickable at point (760, 35). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e77ac4a2d90a71343df6d5e0a25bf354
+14:29:16 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //h2[contains(text(),'success')]
+14:29:26 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //h2[contains(text(),'success')] is found
+14:29:27 INFO  TestBase - ==================================
+14:29:27 INFO  TestBase - Method registrationPositiveDTO is started
+14:29:27 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+14:29:37 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+14:29:37 INFO  manager.TestNGListener - Test registrationPositiveDTO invoked
+14:29:37 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Sign up ']
+14:29:37 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Sign up '] is found
+14:29:38 INFO  manager.WebDriverListener - Something went wrong!
+14:29:38 INFO  manager.WebDriverListener - element click intercepted: Element <a _ngcontent-qht-c44="" class="navigation-link ng-star-inserted" ng-reflect-query-params="[object Object]" ng-reflect-router-link="registration" href="/registration?url=%2Fsearch">...</a> is not clickable at point (760, 35). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e77ac4a2d90a71343df6d5e0a25bf354
+14:29:38 INFO  manager.WebDriverListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-qht-c44="" class="navigation-link ng-star-inserted" ng-reflect-query-params="[object Object]" ng-reflect-router-link="registration" href="/registration?url=%2Fsearch">...</a> is not clickable at point (760, 35). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e77ac4a2d90a71343df6d5e0a25bf354
+14:29:38 INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-1778.png
+14:29:38 INFO  manager.TestNGListener - Test registrationPositiveDTO failed: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-qht-c44="" class="navigation-link ng-star-inserted" ng-reflect-query-params="[object Object]" ng-reflect-router-link="registration" href="/registration?url=%2Fsearch">...</a> is not clickable at point (760, 35). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e77ac4a2d90a71343df6d5e0a25bf354
+14:29:38 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //h2[contains(text(),'success')]
+14:29:48 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //h2[contains(text(),'success')] is found
+14:29:49 INFO  TestBase - ==================================
+14:29:49 INFO  TestBase - Method registrationPositiveDTO is started
+14:29:49 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+14:29:59 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+14:29:59 INFO  manager.TestNGListener - Test registrationPositiveDTO invoked
+14:29:59 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Sign up ']
+14:29:59 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Sign up '] is found
+14:30:00 INFO  manager.WebDriverListener - Something went wrong!
+14:30:00 INFO  manager.WebDriverListener - element click intercepted: Element <a _ngcontent-qht-c44="" class="navigation-link ng-star-inserted" ng-reflect-query-params="[object Object]" ng-reflect-router-link="registration" href="/registration?url=%2Fsearch">...</a> is not clickable at point (760, 35). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e77ac4a2d90a71343df6d5e0a25bf354
+14:30:00 INFO  manager.WebDriverListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-qht-c44="" class="navigation-link ng-star-inserted" ng-reflect-query-params="[object Object]" ng-reflect-router-link="registration" href="/registration?url=%2Fsearch">...</a> is not clickable at point (760, 35). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e77ac4a2d90a71343df6d5e0a25bf354
+14:30:00 INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-1800.png
+14:30:00 INFO  manager.TestNGListener - Test registrationPositiveDTO failed: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-qht-c44="" class="navigation-link ng-star-inserted" ng-reflect-query-params="[object Object]" ng-reflect-router-link="registration" href="/registration?url=%2Fsearch">...</a> is not clickable at point (760, 35). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e77ac4a2d90a71343df6d5e0a25bf354
+14:30:00 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //h2[contains(text(),'success')]
+14:30:10 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //h2[contains(text(),'success')] is found
+14:30:11 INFO  TestBase - ==================================

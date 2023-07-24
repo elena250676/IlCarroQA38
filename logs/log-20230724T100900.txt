@@ -1,0 +1,156 @@
+10:09:01 INFO  manager.AppManager - Tests starting on Chrome
+10:09:03 INFO  manager.AppManager - Tests starting on Firefox
+10:09:06 INFO  TestBase - Method loginNegativeUserDTO is started
+10:09:06 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+10:09:16 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+10:09:16 INFO  manager.TestNGListener - Test loginNegativeUserDTO invoked
+10:09:16 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Log in ']
+10:09:16 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Log in '] is found
+10:09:16 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+10:09:16 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+10:09:16 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+10:09:16 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+10:09:16 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+10:09:16 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+10:09:20 INFO  manager.TestNGListener - Test loginNegativeUserDTO successful
+10:09:20 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='button']
+10:09:20 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='button'] is found
+10:09:20 INFO  TestBase - ==================================
+10:09:20 INFO  TestBase - Method loginPositive is started
+10:09:20 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+10:09:30 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+10:09:30 INFO  manager.TestNGListener - Test loginPositive invoked
+10:09:30 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Log in ']
+10:09:30 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Log in '] is found
+10:09:30 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+10:09:30 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+10:09:30 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+10:09:30 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+10:09:30 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+10:09:30 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+10:09:33 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //h2[contains(text(),'success')]
+10:09:33 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //h2[contains(text(),'success')] is found
+10:09:33 INFO  manager.TestNGListener - Test loginPositive successful
+10:09:33 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='button']
+10:09:33 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='button'] is found
+10:09:34 INFO  TestBase - ==================================
+10:09:34 INFO  TestBase - Method loginPositiveProps is started
+10:09:34 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+10:09:34 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+10:09:34 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+10:09:34 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+10:09:34 INFO  manager.TestNGListener - Test loginPositiveProps invoked
+10:09:34 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Log in ']
+10:09:34 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Log in '] is found
+10:09:34 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+10:09:34 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+10:09:34 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+10:09:34 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+10:09:34 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+10:09:34 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+10:09:35 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //h2[contains(text(),'success')]
+10:09:35 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //h2[contains(text(),'success')] is found
+10:09:35 INFO  manager.TestNGListener - Test loginPositiveProps successful
+10:09:35 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='button']
+10:09:35 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='button'] is found
+10:09:35 INFO  TestBase - ==================================
+10:09:35 INFO  TestBase - Method loginPositiveUser is started
+10:09:35 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+10:09:35 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+10:09:35 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+10:09:35 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+10:09:35 INFO  manager.TestNGListener - Test loginPositiveUser invoked
+10:09:35 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Log in ']
+10:09:35 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Log in '] is found
+10:09:36 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+10:09:36 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+10:09:36 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+10:09:36 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+10:09:36 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+10:09:36 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+10:09:39 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //h2[contains(text(),'success')]
+10:09:39 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //h2[contains(text(),'success')] is found
+10:09:39 INFO  manager.TestNGListener - Test loginPositiveUser successful
+10:09:39 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='button']
+10:09:39 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='button'] is found
+10:09:39 INFO  TestBase - ==================================
+10:09:39 INFO  TestBase - Method loginPositiveUserDTO is started
+10:09:39 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+10:09:39 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+10:09:39 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+10:09:39 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+10:09:39 INFO  manager.TestNGListener - Test loginPositiveUserDTO invoked
+10:09:39 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Log in ']
+10:09:40 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Log in '] is found
+10:09:40 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+10:09:40 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+10:09:40 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+10:09:40 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+10:09:40 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+10:09:40 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+10:09:43 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //h2[contains(text(),'success')]
+10:09:43 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //h2[contains(text(),'success')] is found
+10:09:43 INFO  manager.TestNGListener - Test loginPositiveUserDTO successful
+10:09:43 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='button']
+10:09:43 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='button'] is found
+10:09:43 INFO  TestBase - ==================================
+10:09:43 INFO  TestBase - Method loginPositiveUserDTO is started
+10:09:43 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+10:09:43 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+10:09:43 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+10:09:43 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+10:09:44 INFO  manager.TestNGListener - Test loginPositiveUserDTO invoked
+10:09:44 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Log in ']
+10:09:44 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Log in '] is found
+10:09:44 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+10:09:44 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+10:09:44 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+10:09:44 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+10:09:44 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+10:09:44 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+10:09:47 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //h2[contains(text(),'success')]
+10:09:47 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //h2[contains(text(),'success')] is found
+10:09:47 INFO  manager.TestNGListener - Test loginPositiveUserDTO successful
+10:09:47 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='button']
+10:09:47 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='button'] is found
+10:09:48 INFO  TestBase - ==================================
+10:09:48 INFO  TestBase - Method loginPositiveUserDTO is started
+10:09:48 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+10:09:48 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+10:09:48 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+10:09:48 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+10:09:48 INFO  manager.TestNGListener - Test loginPositiveUserDTO invoked
+10:09:48 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Log in ']
+10:09:48 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Log in '] is found
+10:09:48 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+10:09:48 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+10:09:48 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+10:09:48 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+10:09:48 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+10:09:48 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+10:09:51 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //h2[contains(text(),'success')]
+10:09:51 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //h2[contains(text(),'success')] is found
+10:09:51 INFO  manager.TestNGListener - Test loginPositiveUserDTO successful
+10:09:51 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='button']
+10:09:51 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='button'] is found
+10:09:52 INFO  TestBase - ==================================
+10:09:52 INFO  TestBase - Method loginPositiveUserData is started
+10:09:52 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+10:09:52 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+10:09:52 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+10:09:52 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+10:09:52 INFO  manager.TestNGListener - Test loginPositiveUserData invoked
+10:09:52 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Log in ']
+10:09:52 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Log in '] is found
+10:09:52 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+10:09:52 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+10:09:52 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+10:09:52 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+10:09:52 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+10:09:52 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+10:09:56 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //h2[contains(text(),'success')]
+10:09:56 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //h2[contains(text(),'success')] is found
+10:09:56 INFO  manager.TestNGListener - Test loginPositiveUserData successful
+10:09:56 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='button']
+10:09:56 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='button'] is found
+10:09:56 INFO  TestBase - ==================================

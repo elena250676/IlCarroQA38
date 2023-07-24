@@ -13,7 +13,7 @@ import java.lang.reflect.Method;
 public class TestBase {
     Logger logger = LoggerFactory.getLogger(TestBase.class);
     static AppManager app = new AppManager(
-            System.getProperty("browser", BrowserType.FIREFOX)
+            System.getProperty("browser", BrowserType.CHROME)
     );
   //static   AppManager app = new AppManager(System.getProperty("browser", BrowserType.CHROME));
     @BeforeSuite(alwaysRun=true)

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RegistrationTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-07-24T11:36:00" hostname="ELENA" time="107.776">
+  <properties/>
+  <testcase name="registrationNegativ" classname="RegistrationTests" time="11.535"/>
+  <testcase name="registrationPositive" classname="RegistrationTests" time="6.902"/>
+  <testcase name="registrationPositiveDTO[0](models.User@cc62a3b)" classname="RegistrationTests" time="4.003"/>
+  <testcase name="registrationPositiveDTO[1](models.User@66f66866)" classname="RegistrationTests" time="4.029"/>
+  <testcase name="registrationPositiveDTO[2](models.User@3c443976)" classname="RegistrationTests" time="4.492"/>
+  <testcase name="registrationPositiveDTO[3](models.User@693e4d19)" classname="RegistrationTests" time="4.512"/>
+  <testcase name="registrationPositiveDTO[4](models.User@5b022357)" classname="RegistrationTests" time="3.983"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1690198562093	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:180:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ilcarro.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ilcarro.web.app."
+1690198617756	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:180:31
+1690198643314	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:180:31
+]]></system-err>
+</testsuite>

@@ -1,0 +1,61 @@
+14:04:26 INFO  manager.AppManager - Tests starting on Chrome
+14:04:29 INFO  manager.AppManager - Tests starting on Firefox
+14:04:30 INFO  TestBase - Method registrationNegativ is started
+14:04:30 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+14:04:40 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+14:04:40 INFO  manager.TestNGListener - Test registrationNegativ invoked
+14:04:40 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Sign up ']
+14:04:40 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Sign up '] is found
+14:04:41 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='name']
+14:04:41 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='name'] is found
+14:04:41 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='lastName']
+14:04:41 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='lastName'] is found
+14:04:41 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+14:04:41 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+14:04:41 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+14:04:41 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+14:04:41 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: label[for='terms-of-use']
+14:04:41 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: label[for='terms-of-use'] is found
+14:04:41 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+14:04:41 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+14:04:47 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //h2[contains(text(),'success')]
+14:04:57 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //h2[contains(text(),'success')] is found
+14:04:57 INFO  manager.TestNGListener - Test registrationNegativ successful
+14:04:57 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='button']
+14:05:07 INFO  manager.WebDriverListener - Something went wrong!
+14:05:07 INFO  manager.WebDriverListener - Unable to locate element: //button[@type='button']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11448, moz:profile: C:\Users\6145~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b0b66ee4-b395-4d0a-847b-3c695758b37a
+*** Element info: {Using=xpath, value=//button[@type='button']}
+14:05:07 INFO  manager.WebDriverListener - org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@type='button']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11448, moz:profile: C:\Users\6145~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b0b66ee4-b395-4d0a-847b-3c695758b37a
+*** Element info: {Using=xpath, value=//button[@type='button']}
+14:05:07 INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-307.png
+14:05:07 INFO  TestBase - ==================================
+14:05:07 INFO  TestBase - Method registrationPositive is started
+14:05:07 INFO  manager.TestNGListener - Test registrationPositive invoked
+14:05:07 INFO  TestBase - ==================================
+14:05:07 INFO  TestBase - Method registrationPositiveDTO is started
+14:05:07 INFO  manager.TestNGListener - Test registrationPositiveDTO invoked
+14:05:07 INFO  TestBase - ==================================
+14:05:07 INFO  TestBase - Method registrationPositiveDTO is started
+14:05:07 INFO  manager.TestNGListener - Test registrationPositiveDTO invoked
+14:05:07 INFO  TestBase - ==================================
+14:05:07 INFO  TestBase - Method registrationPositiveDTO is started
+14:05:07 INFO  manager.TestNGListener - Test registrationPositiveDTO invoked
+14:05:07 INFO  TestBase - ==================================
+14:05:07 INFO  TestBase - Method registrationPositiveDTO is started
+14:05:07 INFO  manager.TestNGListener - Test registrationPositiveDTO invoked
+14:05:07 INFO  TestBase - ==================================
+14:05:07 INFO  TestBase - Method registrationPositiveDTO is started
+14:05:07 INFO  manager.TestNGListener - Test registrationPositiveDTO invoked
+14:05:07 INFO  TestBase - ==================================

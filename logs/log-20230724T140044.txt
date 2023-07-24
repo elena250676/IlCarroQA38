@@ -1,0 +1,56 @@
+14:00:45 INFO  manager.AppManager - Tests starting on Chrome
+14:00:48 INFO  manager.AppManager - Tests starting on Firefox
+14:00:51 INFO  TestBase - Method addNewCarPositive is started
+14:00:51 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+14:01:01 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+14:01:01 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Log in ']
+14:01:01 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Log in '] is found
+14:01:02 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+14:01:02 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+14:01:02 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+14:01:02 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+14:01:02 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+14:01:02 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+14:01:02 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='button']
+14:01:03 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='button'] is found
+14:01:06 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //a[.=' Let the car work ']
+14:01:06 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //a[.=' Let the car work '] is found
+14:01:06 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: h2
+14:01:06 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: h2 is found
+14:01:06 INFO  manager.WebDriverListener - Start searching element ----> By.id: pickUpPlace
+14:01:06 INFO  manager.WebDriverListener - Element with locator ----> By.id: pickUpPlace is found
+14:01:06 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: div.pac-item
+14:01:07 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: div.pac-item is found
+14:01:08 INFO  manager.WebDriverListener - Start searching element ----> By.id: make
+14:01:08 INFO  manager.WebDriverListener - Element with locator ----> By.id: make is found
+14:01:08 INFO  manager.WebDriverListener - Start searching element ----> By.id: model
+14:01:08 INFO  manager.WebDriverListener - Element with locator ----> By.id: model is found
+14:01:08 INFO  manager.WebDriverListener - Start searching element ----> By.id: year
+14:01:08 INFO  manager.WebDriverListener - Element with locator ----> By.id: year is found
+14:01:08 INFO  manager.WebDriverListener - Start searching element ----> By.id: fuel
+14:01:08 INFO  manager.WebDriverListener - Element with locator ----> By.id: fuel is found
+14:01:08 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: .//option[@value = "Petrol"]
+14:01:08 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: .//option[@value = "Petrol"] is found
+14:01:08 INFO  manager.WebDriverListener - Start searching element ----> By.id: seats
+14:01:08 INFO  manager.WebDriverListener - Element with locator ----> By.id: seats is found
+14:01:08 INFO  manager.WebDriverListener - Start searching element ----> By.id: class
+14:01:08 INFO  manager.WebDriverListener - Element with locator ----> By.id: class is found
+14:01:08 INFO  manager.WebDriverListener - Start searching element ----> By.id: serialNumber
+14:01:08 INFO  manager.WebDriverListener - Element with locator ----> By.id: serialNumber is found
+14:01:08 INFO  manager.WebDriverListener - Start searching element ----> By.id: serialNumber
+14:01:08 INFO  manager.WebDriverListener - Element with locator ----> By.id: serialNumber is found
+14:01:08 INFO  manager.WebDriverListener - Something went wrong!
+14:01:08 INFO  manager.WebDriverListener - (307, 664) is out of bounds of viewport width (1280) and height (650)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31504, moz:profile: C:\Users\6145~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c41707d0-562b-4fd2-a63a-6cb8a8d3fffb
+14:01:08 INFO  manager.WebDriverListener - org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (307, 664) is out of bounds of viewport width (1280) and height (650)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31504, moz:profile: C:\Users\6145~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c41707d0-562b-4fd2-a63a-6cb8a8d3fffb
+14:01:08 INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-68.png
+14:01:08 INFO  TestBase - ==================================
