@@ -1,0 +1,77 @@
+16:21:50 INFO  manager.AppManager - Tests starting on Chrome
+16:21:51 INFO  TestBase - Method loginPositiveUserDTO is started
+16:21:51 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+16:22:01 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+16:22:01 INFO  manager.TestNGListener - Test loginPositiveUserDTO invoked
+16:22:01 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Log in ']
+16:22:01 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Log in '] is found
+16:22:01 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+16:22:01 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+16:22:01 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+16:22:01 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+16:22:02 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+16:22:02 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+16:22:02 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //h2[contains(text(),'success')]
+16:22:03 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //h2[contains(text(),'success')] is found
+16:22:03 INFO  manager.TestNGListener - Test loginPositiveUserDTO successful
+16:22:03 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='button']
+16:22:03 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='button'] is found
+16:22:03 INFO  TestBase - ==================================
+16:22:03 INFO  TestBase - Method loginPositiveUserDTO is started
+16:22:03 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+16:22:03 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+16:22:03 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+16:22:03 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+16:22:03 INFO  manager.TestNGListener - Test loginPositiveUserDTO invoked
+16:22:03 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Log in ']
+16:22:03 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Log in '] is found
+16:22:03 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+16:22:03 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+16:22:03 INFO  manager.WebDriverListener - Something went wrong!
+16:22:03 INFO  manager.WebDriverListener - stale element reference: stale element not found
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 408df38a2cdddecd84b83277cdf86bf2
+16:22:03 INFO  manager.WebDriverListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 408df38a2cdddecd84b83277cdf86bf2
+16:22:03 INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-1323.png
+16:22:03 INFO  manager.TestNGListener - Test loginPositiveUserDTO failed: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 408df38a2cdddecd84b83277cdf86bf2
+16:22:03 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='button']
+16:22:13 INFO  manager.WebDriverListener - Something went wrong!
+16:22:13 INFO  manager.WebDriverListener - no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='button']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 408df38a2cdddecd84b83277cdf86bf2
+*** Element info: {Using=xpath, value=//button[@type='button']}
+16:22:13 INFO  manager.WebDriverListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='button']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 408df38a2cdddecd84b83277cdf86bf2
+*** Element info: {Using=xpath, value=//button[@type='button']}
+16:22:13 INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-1333.png
+16:22:13 INFO  manager.TestNGListener - Test loginPositiveUserDTO invoked

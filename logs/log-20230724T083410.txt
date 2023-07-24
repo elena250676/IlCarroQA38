@@ -1,0 +1,47 @@
+08:34:11 INFO  manager.AppManager - Tests starting on Chrome
+08:34:12 INFO  TestBase - Method addNewCarPositive is started
+08:34:12 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+08:34:22 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+08:34:23 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Log in ']
+08:34:23 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Log in '] is found
+08:34:23 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+08:34:23 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+08:34:23 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+08:34:23 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+08:34:23 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+08:34:23 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+08:34:23 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='button']
+08:34:25 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='button'] is found
+08:34:28 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //a[.=' Let the car work ']
+08:34:28 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //a[.=' Let the car work '] is found
+08:34:28 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: h2
+08:34:28 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: h2 is found
+08:34:28 INFO  manager.WebDriverListener - Start searching element ----> By.id: pickUpPlace
+08:34:28 INFO  manager.WebDriverListener - Element with locator ----> By.id: pickUpPlace is found
+08:34:28 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: div.pac-item
+08:34:29 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: div.pac-item is found
+08:34:29 INFO  manager.WebDriverListener - Start searching element ----> By.id: make
+08:34:29 INFO  manager.WebDriverListener - Element with locator ----> By.id: make is found
+08:34:29 INFO  manager.WebDriverListener - Start searching element ----> By.id: model
+08:34:29 INFO  manager.WebDriverListener - Element with locator ----> By.id: model is found
+08:34:29 INFO  manager.WebDriverListener - Start searching element ----> By.id: year
+08:34:29 INFO  manager.WebDriverListener - Element with locator ----> By.id: year is found
+08:34:29 INFO  manager.WebDriverListener - Start searching element ----> By.id: fuel
+08:34:29 INFO  manager.WebDriverListener - Element with locator ----> By.id: fuel is found
+08:34:29 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: .//option[@value = "Petrol"]
+08:34:29 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: .//option[@value = "Petrol"] is found
+08:34:29 INFO  manager.WebDriverListener - Start searching element ----> By.id: seats
+08:34:29 INFO  manager.WebDriverListener - Element with locator ----> By.id: seats is found
+08:34:29 INFO  manager.WebDriverListener - Start searching element ----> By.id: class
+08:34:29 INFO  manager.WebDriverListener - Element with locator ----> By.id: class is found
+08:34:29 INFO  manager.WebDriverListener - Start searching element ----> By.id: serialNumber
+08:34:29 INFO  manager.WebDriverListener - Element with locator ----> By.id: serialNumber is found
+08:34:29 INFO  manager.WebDriverListener - Start searching element ----> By.id: serialNumber
+08:34:29 INFO  manager.WebDriverListener - Element with locator ----> By.id: serialNumber is found
+08:34:30 INFO  manager.WebDriverListener - Start searching element ----> By.id: serialNumber
+08:34:30 INFO  manager.WebDriverListener - Element with locator ----> By.id: serialNumber is found
+08:34:30 INFO  manager.WebDriverListener - Start searching element ----> By.id: price
+08:34:30 INFO  manager.WebDriverListener - Element with locator ----> By.id: price is found
+08:34:30 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+08:34:30 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+08:34:30 INFO  TestBase - ==================================

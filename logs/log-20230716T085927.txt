@@ -1,0 +1,19 @@
+08:59:28 INFO  manager.AppManager - Tests starting on Chrome
+08:59:30 INFO  TestBase - Method SearchPositiveSearch is started
+08:59:30 INFO  manager.WebDriverListener - Start searching element ----> By.id: city
+08:59:30 INFO  manager.WebDriverListener - Element with locator ----> By.id: city is found
+08:59:30 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: div.pac-item
+08:59:30 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: div.pac-item is found
+08:59:30 INFO  manager.WebDriverListener - Start searching element ----> By.id: dates
+08:59:30 INFO  manager.WebDriverListener - Element with locator ----> By.id: dates is found
+08:59:30 INFO  manager.WebDriverListener - Start searching element ----> By.id: city
+08:59:30 INFO  manager.WebDriverListener - Element with locator ----> By.id: city is found
+08:59:34 INFO  manager.WebDriverListener - Start searching element ----> By.id: dates
+08:59:34 INFO  manager.WebDriverListener - Element with locator ----> By.id: dates is found
+08:59:35 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[.=' 16 ']
+08:59:35 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[.=' 16 '] is found
+08:59:36 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[.=' 19 ']
+08:59:36 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[.=' 19 '] is found
+08:59:40 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+08:59:40 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+08:59:40 INFO  TestBase - ==================================

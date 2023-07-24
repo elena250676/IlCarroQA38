@@ -1,0 +1,7 @@
+19:09:34 INFO  manager.AppManager - Tests starting on Chrome
+19:09:36 INFO  TestBase - Method SearchFormDateManualPositive is started
+19:09:39 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //a[@id='0']
+19:09:39 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //a[@id='0'] is found
+19:09:39 INFO  manager.WebDriverListener - Start searching element ----> By.id: city
+19:09:39 INFO  manager.WebDriverListener - Element with locator ----> By.id: city is found
+19:09:39 INFO  TestBase - ==================================

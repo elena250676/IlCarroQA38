@@ -10,7 +10,7 @@ public class HelperUser extends HelperBase{
         super(wd);
     }
     public void openLoginForm(){
-        wd.findElement(By.xpath("//a[@class='navigation-link'][normalize-space()='Log in']")).click();
+        wd.findElement(By.xpath("//*[.=' Log in ']")).click();
     }
     public void fillLoginForm(String email, String password){
         type(By.xpath("//input[@id='email']"), email);
@@ -41,8 +41,8 @@ public void fillRegistrationForm(String firstname, String lastname, String email
         type(By.xpath("//input[@id='lastName']"), user.getLastName());
         type(By.xpath("//input[@id='email']"), user.getEmail());
         type(By.xpath("//input[@id='password']"), user.getPassword());
-        //click(By.cssSelector("label[for='terms-of-use']"));
-        clickCheckbox();
+        click(By.cssSelector("label[for='terms-of-use']"));
+        //clickCheckbox();
     }
 
     public void clickCheckbox(){
@@ -98,7 +98,9 @@ public void fillCheckbox() {
     }
 
     public void submitLogin(){
-        click(By.xpath("//button[@type='submit']"));
+
+//        wd.findElement(By.xpath("//button[@type='submit']")).submit();
+        wd.findElement(By.xpath("//button[@type='submit']")).click();
     }
 
    public void logout(){

@@ -1,0 +1,11 @@
+09:48:03 INFO  manager.AppManager - Tests starting on Chrome
+09:48:04 INFO  TestBase - Method SearchPositiveSearch is started
+09:48:04 INFO  manager.WebDriverListener - Start searching element ----> By.id: city
+09:48:04 INFO  manager.WebDriverListener - Element with locator ----> By.id: city is found
+09:48:04 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: div.pac-item
+09:48:05 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: div.pac-item is found
+09:48:05 INFO  manager.WebDriverListener - Start searching element ----> By.id: dates
+09:48:05 INFO  manager.WebDriverListener - Element with locator ----> By.id: dates is found
+09:48:05 INFO  manager.WebDriverListener - Start searching element ----> By.id: city
+09:48:05 INFO  manager.WebDriverListener - Element with locator ----> By.id: city is found
+09:48:08 INFO  TestBase - ==================================

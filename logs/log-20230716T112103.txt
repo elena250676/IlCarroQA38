@@ -1,0 +1,27 @@
+11:21:04 INFO  manager.AppManager - Tests starting on Chrome
+11:21:06 INFO  TestBase - Method registrationPositiveDTO is started
+11:21:06 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+11:21:16 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+11:21:16 INFO  manager.TestNGListener - Test registrationPositiveDTO invoked
+11:21:16 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Sign up ']
+11:21:16 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Sign up '] is found
+11:21:16 INFO  TestBase - openRegistrationForm invoked
+11:21:16 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='name']
+11:21:16 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='name'] is found
+11:21:16 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='lastName']
+11:21:16 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='lastName'] is found
+11:21:16 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+11:21:16 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+11:21:16 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+11:21:16 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+11:21:16 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: div.checkbox-container
+11:21:16 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: div.checkbox-container is found
+11:21:17 INFO  TestBase - fillRegistrationForm invoked
+11:21:17 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+11:21:17 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+11:21:17 INFO  TestBase - submitLogin invoked
+11:21:17 INFO  TestBase - registrationPositive starts with credentials: login joe_12332@n.com & password: $Asjj1234
+11:21:17 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //h2[contains(text(),'success')]
+11:21:19 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //h2[contains(text(),'success')] is found
+11:21:19 INFO  manager.TestNGListener - Test registrationPositiveDTO successful
+11:21:19 INFO  TestBase - ==================================

@@ -1,0 +1,3 @@
+11:03:01 INFO  manager.AppManager - Tests starting on Chrome
+11:03:03 INFO  manager.TestNGListener - Test loginPositiveUserDTO failed: org.testng.TestNGException: 
+Method public void LolinTests.loginPositiveUserDTO(models.User) requires a @DataProvider named : userDto in class manager.ProviderData

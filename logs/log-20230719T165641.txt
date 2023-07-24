@@ -1,0 +1,57 @@
+16:56:43 INFO  manager.AppManager - Tests starting on Chrome
+16:56:44 INFO  TestBase - Method loginNegativeUserDTO is started
+16:56:44 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+16:56:54 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+16:56:54 INFO  manager.TestNGListener - Test loginNegativeUserDTO invoked
+16:56:54 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Log in ']
+16:56:54 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Log in '] is found
+16:56:54 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+16:56:54 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+16:56:54 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+16:56:54 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+16:56:54 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+16:56:54 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+16:56:57 INFO  manager.TestNGListener - Test loginNegativeUserDTO successful
+16:56:57 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='button']
+16:56:57 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='button'] is found
+16:56:57 INFO  TestBase - ==================================
+16:56:57 INFO  TestBase - Method loginNegativeUserDTO is started
+16:56:57 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+16:57:07 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+16:57:07 INFO  manager.TestNGListener - Test loginNegativeUserDTO invoked
+16:57:07 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Log in ']
+16:57:07 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Log in '] is found
+16:57:08 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+16:57:08 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+16:57:08 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+16:57:08 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+16:57:08 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+16:57:08 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+16:57:11 INFO  manager.TestNGListener - Test loginNegativeUserDTO successful
+16:57:11 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='button']
+16:57:21 INFO  manager.WebDriverListener - Something went wrong!
+16:57:21 INFO  manager.WebDriverListener - no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='button']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60644}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8e3bdbcfc8c3ecada420d6c81ceacf81
+*** Element info: {Using=xpath, value=//button[@type='button']}
+16:57:21 INFO  manager.WebDriverListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='button']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60644}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8e3bdbcfc8c3ecada420d6c81ceacf81
+*** Element info: {Using=xpath, value=//button[@type='button']}
+16:57:21 INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-3441.png
+16:57:21 INFO  manager.TestNGListener - Test loginNegativeWrongEmail invoked
+16:57:21 INFO  manager.TestNGListener - Test loginPositiveProps invoked
+16:57:21 INFO  manager.TestNGListener - Test loginPositiveUser invoked
+16:57:21 INFO  manager.TestNGListener - Test loginPositiveUserDTO invoked
+16:57:21 INFO  manager.TestNGListener - Test loginPositiveUserDTO invoked
+16:57:21 INFO  manager.TestNGListener - Test loginPositiveUserDTO invoked

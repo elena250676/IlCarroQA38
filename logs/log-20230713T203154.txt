@@ -1,0 +1,13 @@
+20:31:55 INFO  manager.AppManager - Tests starting on Chrome
+20:31:58 INFO  TestBase - Method SearchFormDateManualPositive is started
+20:32:01 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //a[@id='0']
+20:32:01 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //a[@id='0'] is found
+20:32:01 INFO  manager.WebDriverListener - Start searching element ----> By.id: city
+20:32:01 INFO  manager.WebDriverListener - Element with locator ----> By.id: city is found
+20:32:01 INFO  manager.WebDriverListener - Start searching element ----> By.id: city
+20:32:01 INFO  manager.WebDriverListener - Element with locator ----> By.id: city is found
+20:32:01 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='dates']
+20:32:01 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='dates'] is found
+20:32:04 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+20:32:04 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+20:32:04 INFO  TestBase - ==================================

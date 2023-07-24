@@ -1,0 +1,25 @@
+09:20:15 INFO  manager.AppManager - Tests starting on Chrome
+09:20:18 INFO  TestBase - Method SearchPositiveSearch is started
+09:20:18 INFO  manager.WebDriverListener - Start searching element ----> By.id: city
+09:20:18 INFO  manager.WebDriverListener - Element with locator ----> By.id: city is found
+09:20:18 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: div.pac-item
+09:20:18 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: div.pac-item is found
+09:20:18 INFO  manager.WebDriverListener - Start searching element ----> By.id: dates
+09:20:18 INFO  manager.WebDriverListener - Element with locator ----> By.id: dates is found
+09:20:18 INFO  manager.WebDriverListener - Start searching element ----> By.id: city
+09:20:18 INFO  manager.WebDriverListener - Element with locator ----> By.id: city is found
+09:20:21 INFO  manager.WebDriverListener - Start searching element ----> By.id: dates
+09:20:21 INFO  manager.WebDriverListener - Element with locator ----> By.id: dates is found
+09:20:21 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[.=' 16 ']
+09:20:21 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[.=' 16 '] is found
+09:20:22 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@aria-label='Next month']
+09:20:22 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@aria-label='Next month'] is found
+09:20:23 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@aria-label='Next month']
+09:20:23 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@aria-label='Next month'] is found
+09:20:24 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@aria-label='Next month']
+09:20:24 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@aria-label='Next month'] is found
+09:20:26 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[.=' 19 ']
+09:20:26 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[.=' 19 '] is found
+09:20:30 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+09:20:30 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+09:20:30 INFO  TestBase - ==================================

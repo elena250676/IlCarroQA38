@@ -1,11 +1,10 @@
+import manager.ProviderData;
 import manager.TestNGListener;
 import models.User;
 import org.openqa.selenium.By;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
+
 @Listeners(TestNGListener.class)
 public class RegistrationTests extends TestBase {
     @BeforeMethod
@@ -64,8 +63,33 @@ public class RegistrationTests extends TestBase {
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button")));
 
     }
-    @AfterMethod
-    public void tearDown() {
 
+    @Test(dataProvider = "userDtoCSV", dataProviderClass = ProviderData.class)
+    public void registrationPositiveDTO(User user){
+//        int i = (int)(System.currentTimeMillis()/1000)%3600;
+//        User user = new User()
+//                .withName("John")
+//                .withLastName("Snow")
+//                .withEmail("john_" + i + "@mail.com")
+//                .withPassword("$Asdf1234");
+
+        app.getUser().openRegistrationForm();
+        logger.info("openRegistrationForm invoked");
+        app.getUser().fillRegistrationForm(user);
+        app.getUser().pause(3000);
+        logger.info("fillRegistrationForm invoked");
+        app.getUser().submitLogin();
+        logger.info("submitLogin invoked");
+        logger.info("registrationPositive starts with credentials: login "
+                + user.getEmail() + " & password: " + user.getPassword());
+
+        Assert.assertTrue(app.getUser().isLoggedSuccess());
+    }
+
+    @AfterMethod
+    public void postcondition(){
+        app.getUser().clickOkButton();
+        //app.getUser().logout();
+        app.getUser().pause(1000);
     }
 }

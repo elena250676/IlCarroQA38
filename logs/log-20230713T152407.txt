@@ -1,0 +1,21 @@
+15:24:09 INFO  manager.AppManager - Tests starting on Chrome
+15:24:12 INFO  manager.AppManager - Tests starting on Firefox
+15:24:14 INFO  TestBase - Method loginNegativeWrongEmail is started
+15:24:14 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+15:24:22 INFO  manager.WebDriverListener - Something went wrong!
+15:24:22 INFO  manager.WebDriverListener - TypeError: browsingContext.currentWindowGlobal is null
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13616, moz:profile: C:\Users\6145~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7a7482a0-1605-463c-bd23-da308ca135b5
+*** Element info: {Using=xpath, value=//*[.=' Logout ']}
+15:24:22 INFO  manager.WebDriverListener - org.openqa.selenium.WebDriverException: TypeError: browsingContext.currentWindowGlobal is null
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230710165010, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13616, moz:profile: C:\Users\6145~1\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7a7482a0-1605-463c-bd23-da308ca135b5
+*** Element info: {Using=xpath, value=//*[.=' Logout ']}
+15:24:22 INFO  manager.TestNGListener - Test loginNegativeWrongEmail invoked
+15:24:22 INFO  manager.TestNGListener - Test loginPositiveUser invoked

@@ -1,0 +1,8 @@
+08:49:30 INFO  manager.TestNGListener - Test loginNegativeUserDTO invoked
+08:49:30 INFO  manager.TestNGListener - Test loginPositive invoked
+08:49:30 INFO  manager.TestNGListener - Test loginPositiveProps invoked
+08:49:30 INFO  manager.TestNGListener - Test loginPositiveUser invoked
+08:49:30 INFO  manager.TestNGListener - Test loginPositiveUserDTO invoked
+08:49:30 INFO  manager.TestNGListener - Test loginPositiveUserDTO invoked
+08:49:30 INFO  manager.TestNGListener - Test loginPositiveUserDTO invoked
+08:49:30 INFO  manager.TestNGListener - Test loginPositiveUserData invoked

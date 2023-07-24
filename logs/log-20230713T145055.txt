@@ -1,0 +1,11 @@
+14:50:56 INFO  manager.AppManager - Tests starting on Chrome
+14:50:58 INFO  TestBase - Method SearchFormDateManualPositive is started
+14:51:01 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //a[@id='0']
+14:51:01 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //a[@id='0'] is found
+14:51:01 INFO  manager.WebDriverListener - Start searching element ----> By.id: city
+14:51:01 INFO  manager.WebDriverListener - Element with locator ----> By.id: city is found
+14:51:01 INFO  manager.WebDriverListener - Something went wrong!
+14:51:01 INFO  manager.WebDriverListener - Keys to send should be a not null CharSequence
+14:51:01 INFO  manager.WebDriverListener - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+14:51:01 INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-3061.png
+14:51:01 INFO  TestBase - ==================================

@@ -1,0 +1,9 @@
+16:47:45 INFO  manager.AppManager - Tests starting on Chrome
+16:47:45 INFO  manager.TestNGListener - Test loginNegativeUserDTO invoked
+16:47:45 INFO  manager.TestNGListener - Test loginNegativeUserDTO invoked
+16:47:45 INFO  manager.TestNGListener - Test loginNegativeWrongEmail invoked
+16:47:45 INFO  manager.TestNGListener - Test loginPositiveProps invoked
+16:47:45 INFO  manager.TestNGListener - Test loginPositiveUser invoked
+16:47:45 INFO  manager.TestNGListener - Test loginPositiveUserDTO invoked
+16:47:45 INFO  manager.TestNGListener - Test loginPositiveUserDTO invoked
+16:47:45 INFO  manager.TestNGListener - Test loginPositiveUserDTO invoked

@@ -1,0 +1,3 @@
+12:31:44 INFO  manager.AppManager - Tests starting on Chrome
+12:31:45 INFO  TestBase - Method SearchFormDateManualPositive is started
+12:31:45 INFO  TestBase - ==================================
